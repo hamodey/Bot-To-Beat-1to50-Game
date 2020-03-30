@@ -8,9 +8,6 @@ class GameBot:
         time.sleep(5)
 
         elem = self.driver.find_element_by_id("grid")
-        # child_elem = elem.find_element_by_xpath("//div[text() = '1']")
-        # print(child_elem.text)
-        # child_elem.click()
         self.runGame(elem)
         time.sleep(10)
 
